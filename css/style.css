@@ -585,3 +585,27 @@ span{
         grid-template-columns: repeat(1,1fr);
     }
 }
+
+
+
+.btn-projects{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--bg-color);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: white;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.btn-projects:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px var(--main-color);
+}
